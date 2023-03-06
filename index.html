@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas">
+    <meta name="description" content="Movie informations">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Series Info</title>
+</head>
+<body>
+    <div class="wrapper" id="wrapper">
+        <div class="movie__info" id="movie__info">
+            <div class="movie__search" id="movie__search">
+                <form>
+                    <input type="search" placeholder="Series name" id="movie__input" />
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <span id="error__message" class="error_message show">Movie not found!</span>
+            <div class="movie_info_div show" id="movie_info_div">
+                <div class="movie__image_div" id="movie_image_div">
+                    <img id="movie__image" src="" />
+                </div>
+                <div class="movie__name_div" id="movie__name_div">
+                    <h3 id="movie__title"></h3>
+                    <span id="movie__release_date"></span>
+                    <i class="fa fa-star">
+                        <span id="movie__rating"></span>
+                    </i>
+                    <div class="movie__genre_div">
+                    <!--<span id="movie__genre" class="movie__genre_1"></span>
+                    <span id="movie__genre" class="movie__genre_2"></span>
+                    <span id="movie__genre" class="movie__genre_3"></span>-->
+                    </div>
+                </div>
+                <div class="movie__description_div" id="movie__description_div">
+                    <h3 class="movie__overview_title">Overview:</h3>
+                    <span id="movie__overview"></span>
+                    <h3 class="movie__cast_title">Cast:</h3>
+                    <span id="movie__cast_1" class="movie__cast"></span>
+                    <span id="movie__cast_2" class="movie__cast"></span>
+                    <span id="movie__cast_3" class="movie__cast"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
