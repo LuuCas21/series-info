@@ -69,8 +69,8 @@ document.querySelector('form').addEventListener('submit', (e) => {
     };
 
     const movie_app = async function (name) {
-        const api = `https://api.themoviedb.org/3/search/tv?api_key=567e52ced6a5253475c2fa22a532126d&&query=${name}`;
-        //const genreApi = 'https://api.themoviedb.org/3/genre/tv/list?api_key=567e52ced6a5253475c2fa22a532126d&language=en-US';
+        const api = `API_KEY`;
+        //const genreApi = 'API_KEY';
 
         const genreSpan = document.querySelectorAll('.movie__genre');
 
